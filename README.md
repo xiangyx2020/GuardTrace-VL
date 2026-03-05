@@ -21,4 +21,6 @@
 - **`2026/02/23`**:Our work got accepted in CVPR'26 :partying_face:
 - **`2026/03/05`**:We released our model and dataset.
 
-
+## 🛠️ Install
+- Python >= 3.10.0
+- Required libraries are listed in `requirements.txt`
