@@ -22,5 +22,36 @@
 - **`2026/03/05`**:We released our model and dataset.
 
 ## 🛠️ Install
+### Environment Setup
 - Python >= 3.10.0
-- Required libraries are listed in `requirements.txt`
+- Install required libraries:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+### Model & Dataset Download
+
+1.**Download Model**
+
+Download our GuardTrace-VL-3B model from Hugging Face to the `./model` directory:
+```bash
+# Create model directory
+mkdir -p ./model
+# Download model (requires git-lfs)
+git lfs install
+git clone https://huggingface.co/DloadingX/GuardTrace-VL-3B ./model/GuardTrace-VL-3B
+```
+
+2.**Download Test Dataset**
+
+Download our GuardTrace-VL-Dataset from Hugging Face to the `./data` directory:
+
+```bash
+# Create data directory
+mkdir -p ./data
+# Download dataset
+git clone https://huggingface.co/datasets/DloadingX/GuardTrace-VL-Dataset ./data/GuardTrace-VL-Dataset
+# Organize test dataset structure (match eval code expected path)
+mkdir -p ./data/test/images
+cp -r ./data/GuardTrace-VL-Dataset/test/* ./data/test/
+```
