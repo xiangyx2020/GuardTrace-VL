@@ -111,9 +111,9 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## 📚 Citation
 If you find our work useful, please cite:
 ```bibtex
-@article{guardtrace-vl-2026,
+@article{xiang2025guardtrace,
   title={GuardTrace-VL: Detecting Unsafe Multimodel Reasoning via Iterative Safety Supervision},
-  author={Your Name/Team Name},
-  journal={CVPR},
-  year={2026}
+  author={Xiang, Yuxiao and Chen, Junchi and Jin, Zhenchao and Miao, Changtao and Yuan, Haojie and Chu, Qi and Gong, Tao and Yu, Nenghai},
+  journal={arXiv preprint arXiv:2511.20994},
+  year={2025}
 }
