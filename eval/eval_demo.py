@@ -8,9 +8,9 @@ def load_system_prompt(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return f.read().strip()
 
-MODEL_PATH = "./output/GuardTrace-VL_final" 
-IMAGE_PATH = "./S-Eval_final/images/S-Eval_base_risk_en_large_3833.png"
-SYSTEM_PROMPT = load_system_prompt("system_prompt_1.txt")
+MODEL_PATH = "./model/GuardTrace-VL-3B" 
+IMAGE_PATH = "./S-Eval_base_risk_en_large_3833.png"
+SYSTEM_PROMPT = load_system_prompt("./prompt/qta_prompt.txt")
 
 demo_data = {
     "image_name": "S-Eval_base_risk_en_large_3833.png",
