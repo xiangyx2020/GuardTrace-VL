@@ -19,7 +19,7 @@
 
 ## 🗞️ News
 - **`2026/02/23`**:Our work got accepted in CVPR'26 :partying_face:
-- **`2026/03/05`**:We released our model and dataset.
+- **`2026/03/15`**:We released our model and dataset.
 
 ## 🛠️ Install
 ### Environment Setup
